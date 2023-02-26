@@ -1,0 +1,132 @@
+public class Bootcamp {
+
+private String nome;
+
+private ArrayList<Cursos> cursos;
+
+private ArrayList<Mentorias> mentorias;
+
+private ArrayList<Devs> desenvolvedores;
+
+
+
+
+
+
+
+
+
+
+
+
+
+// construtor da classe Bootcamp
+
+public Bootcamp(String nome) {
+
+  this.nome = nome;
+
+  this.cursos = new ArrayList<>();
+
+  this.mentorias = new ArrayList<>();
+
+  this.desenvolvedores = new ArrayList<>();
+
+}
+
+
+
+// getters e setters dos atributos da classe Bootcamp
+
+
+
+public void adicionarCurso(Cursos curso) {
+
+  this.cursos.add(curso);
+
+}
+
+
+
+public void removerCurso(Cursos curso) {
+
+  this.cursos.remove(curso);
+
+}
+
+
+
+public void adicionarMentoria(Mentorias mentoria) {
+
+  this.mentorias.add(mentoria);
+
+}
+
+
+
+public void removerMentoria(Mentorias mentoria) {
+
+  this.mentorias.remove(mentoria);
+
+}
+
+
+
+public void adicionarDev(Devs dev) {
+
+  this.desenvolvedores.add(dev);
+
+}
+
+
+
+public void removerDev(Devs dev) {
+
+  this.desenvolvedores.remove(dev);
+
+}
+
+
+
+
+
+
+
+// construtor da classe Cursos
+
+public Cursos(String nome, String descricao, int duracaoHoras) {
+
+  this.nome = nome;
+
+  this.descricao = descricao;
+
+  this.duracaoHoras = duracaoHoras;
+
+}
+
+
+
+// getters e setters dos atributos da classe Cursos
+
+
+
+
+
+
+
+// construtor da classe Mentorias
+
+public Mentorias(String tema, int duracaoHoras) {
+
+  this.tema = tema;
+
+  this.duracaoHoras = duracaoHoras;
+
+}
+
+
+
+// getters e setters dos atributos da classe Mentorias
+
+
+
